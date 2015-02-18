@@ -21,7 +21,7 @@ knit        : slidify::knit2slides
 
 ## I'm guessing this is the title
 Should we try some code?
-```{r}
+```{r hist, fig.height = 4, fig.width = 6}
 set.seed(87367836)
 r <- rnorm(1000)
 hist(r)

@@ -28,7 +28,7 @@ r <- rnorm(1000)
 hist(r)
 ```
 
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
+![plot of chunk hist](assets/fig/hist-1.png) 
 
 ---
 
