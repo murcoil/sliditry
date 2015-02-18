@@ -25,14 +25,6 @@ knit        : slidify::knit2slides
 That's true. Should we try some code?
 
 ```r
-print("why not")
-```
-
-```
-## [1] "why not"
-```
-
-```r
 set.seed(87367836)
 r <- rnorm(1000)
 hist(r)
