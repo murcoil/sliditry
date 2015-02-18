@@ -23,7 +23,6 @@ knit        : slidify::knit2slides
 Should we try some code?
 
 ```r
-set.seed(87367836)
 r <- rnorm(1000)
 hist(r)
 ```
@@ -32,15 +31,15 @@ hist(r)
 
 ---
 
-## And finally for an old classic
+## And another
+Here's something else
 
 ```r
-print("hello world")
+y <- rnorm(1000, mean = 2, sd = 4)
+plot(r,y)
 ```
 
-```
-## [1] "hello world"
-```
+![plot of chunk scatter](assets/fig/scatter-1.png) 
 
 Thanks, that's it!
 

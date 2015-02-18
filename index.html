@@ -63,8 +63,7 @@
   <article data-timings="">
     <p>Should we try some code?</p>
 
-<pre><code class="r">set.seed(87367836)
-r &lt;- rnorm(1000)
+<pre><code class="r">r &lt;- rnorm(1000)
 hist(r)
 </code></pre>
 
@@ -76,14 +75,16 @@ hist(r)
 
 <slide class="" id="slide-3" style="background:;">
   <hgroup>
-    <h2>And finally for an old classic</h2>
+    <h2>And another</h2>
   </hgroup>
   <article data-timings="">
-    <pre><code class="r">print(&quot;hello world&quot;)
+    <p>Here&#39;s something else</p>
+
+<pre><code class="r">y &lt;- rnorm(1000, mean = 2, sd = 4)
+plot(r,y)
 </code></pre>
 
-<pre><code>## [1] &quot;hello world&quot;
-</code></pre>
+<p><img src="assets/fig/scatter-1.png" alt="plot of chunk scatter"> </p>
 
 <p>Thanks, that&#39;s it!</p>
 
@@ -109,7 +110,7 @@ hist(r)
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='And finally for an old classic'>
+        data-slide=3 title='And another'>
          3
       </a>
     </li>
