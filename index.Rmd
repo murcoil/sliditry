@@ -20,9 +20,7 @@ knit        : slidify::knit2slides
 --- .class #id 
 
 ## I'm guessing this is the title
-* At least you don't get messed up worrying about formatting.
-
-That's true. Should we try some code?
+Should we try some code?
 ```{r}
 set.seed(87367836)
 r <- rnorm(1000)
